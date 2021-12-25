@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+h1,h2{
+    color: #fff;
+}
+.side-menu{
+    position: fixed;
+    background: #191970;
+    width: 20rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li{
+    font-size: 20px;
+    padding: 10px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu ul li i{
+    padding-right: 10px;
+    color: #fff;
+}
+
+.side-menu ul li a{
+    padding-right: 10px;
+    color: #fff;
+}
+
+.side-menu li:hover{
+    color: #666;
+}
+.side-menu li a:hover{
+    color: #666;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #fff;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.container .header .nav .search{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.container .header .nav .search input[type=text]{
+    border: none;
+    background: #f1f1f1;
+    padding: 10px;
+    width: 50%;
+}
+
+.container .header .nav .search button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header .nav .search button i{
+    width: 30px;
+    height: 30px;
+}
+
+.container .header .nav .user i{
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.body .h1{
+    display: flex;
+    padding: 100rem;
+}
+.container .main {
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+.container .list{
+    font-size: 30px;
+    color: grey;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+body{
+    background-color: grey;
+  }
+.card{
+    max-width: 900px;
+    margin: 10px auto;
+    min-height:20x;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);
+    padding: 20px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .one i{
+    padding-left: 25px;
+}
+
+.card .four i{
+    padding-right: 25px;
+}
+  i{
+    
+    text-align: center;
+    color: blue;
+  }
+
+
